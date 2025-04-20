@@ -7,6 +7,7 @@ import ViewDetails from "../Page/ViewDetails/ViewDeta";
 import ViewDeta from "../Page/ViewDetails/ViewDeta";
 import Favorites from '../Page/Favorites/Favorites'
 import Card from "../Page/Card/Card";
+import About from "../Page/About/About";
 
 export const router = createBrowserRouter([
   {
@@ -36,7 +37,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '/about',
-        element: <h1>hello this is about</h1>
+        Component : About
       },
       {
         path:'/card',
